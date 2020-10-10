@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Using two data.frames or matrixs to create sample sets</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for Sample {pack}"><tr><td>Sample {pack}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Using two data.frames or matrixs to create sample sets</h2>
+
+<h3>Description</h3>
+
+<p>Using two data.frames or matrixs to create sample sets
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+Sample(x, y, count)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>A data.frame or matrix of expression profile</p>
+</td></tr>
+<tr valign="top"><td><code>y</code></td>
+<td>
+<p>A data.frame or matrix of expression profile</p>
+</td></tr>
+<tr valign="top"><td><code>count</code></td>
+<td>
+<p>A numeric variable that controls how many sample sets are produced</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>20*count sample sets
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+Sample(GSE85589,GSE59856)#GSE85589 is a data.frame of expression profile,GSE59856 is also a data.frame of expression profile
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>pack</em> version 0.1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>
