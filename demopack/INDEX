@@ -1,0 +1,7 @@
+Sample                  Using two data.frames or matrixs to create
+                        sample sets
+compute_sam             Compute the value of sam between case and
+                        control,and find the significant miRNAs in
+                        train set
+getROC                  Compute the value of ROC for markers or compare
+                        the values of ROC by using two methods

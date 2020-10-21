@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Compute the value of sam between case and control,and find...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for compute_sam {demopack}"><tr><td>compute_sam {demopack}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Compute the value of sam between case and control,and find the significant miRNAs in train set</h2>
+
+<h3>Description</h3>
+
+<p>Compute the value of sam between case and control,and find the significant miRNAs in train set
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+compute_sam(count, delta)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>count</code></td>
+<td>
+<p>A numeric variable of cycle index</p>
+</td></tr>
+<tr valign="top"><td><code>delta</code></td>
+<td>
+<p>A value that adjusts the false discovery rate(FDR)</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>20*count sam results
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+compute_sam(100,0.000000000000000001)#0.000000000000000001 is the value of delta.the smaller delta,the bigger fdr is  is
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>demopack</em> version 0.1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

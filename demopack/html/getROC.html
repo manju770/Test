@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Compute the value of ROC for markers or compare the values of...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for getROC {demopack}"><tr><td>getROC {demopack}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Compute the value of ROC for markers or compare the values of ROC by using two methods</h2>
+
+<h3>Description</h3>
+
+<p>Compute the value of ROC for markers or compare the values of ROC by using two methods
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+getROC(x)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>x is a data.frame.When x is a data.frame with four columns,the first column is the marker expression of the first method.The second column is the marker expression of the second method.The third column is the illustration of two methods.The forth column is the labels of markers
+When x is a data.frame with two columns,the first column is the marker expression of the first method.The second column is the labels of markers</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>When x is a data.frame with four columns,the result is two figures of ROC and the values of ROC by using two methods.When x is a data.frame with two columns,the result is one figure of ROC and the value of ROC
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+get.ROC(data)#data is a data.frame
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>demopack</em> version 0.1.0 <a href="00Index.html">Index</a>]</div>
+</body></html>

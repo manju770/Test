@@ -1,13 +1,14 @@
-Package: pack
+Package: demopack
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A toolkit of R to deal with problems with miRNA
 Version: 0.1.0
-Author: Who wrote it
+Author: MengFanju
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: GPL
 Encoding: UTF-8
 LazyData: true
+Imports: siggenes, gplots, multtest, ROCR
 RoxygenNote: 7.1.1
-Built: R 3.6.3; ; 2020-10-10 01:31:11 UTC; windows
+Built: R 3.6.3; ; 2020-10-21 02:25:06 UTC; windows
